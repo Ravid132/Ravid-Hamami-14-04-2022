@@ -1,0 +1,94 @@
+.forecast-container {
+  width: 80%;
+  /* height: 600px; */
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 1rem auto; */
+  border-radius: 25px;
+  padding: 0.5rem;
+  background-color: #222931;
+}
+
+.forecast-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.forecast-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  align-content: center;
+}
+
+.favorite-actions {
+  display: flex;
+  width: 170px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.favorites-btn {
+  height: 40px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  padding: 0.2rem;
+  background-color: rgb(46 55 106);
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.377);
+  padding: 5px 10px;
+}
+
+.red {
+  color: red;
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+}
+
+.clear {
+  background-image: url('../../imgs/weather-images/1.jpg');
+}
+
+.cloudy {
+  background-image: url('../../imgs/weather-images/2.jpg');
+}
+
+.rainy {
+  background-image: url('../../imgs/weather-images/3.jpg');
+}
+
+.night {
+  background-image: url('../../imgs/weather-images/4.jpg');
+}
+
+.cloudy-night {
+  background-image: url('../../imgs/weather-images/5.jpg');
+}
+
+@media screen and (max-width: 460px) {
+  .forecast-details {
+    /* display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap; */
+    justify-content: center;
+  }
+}

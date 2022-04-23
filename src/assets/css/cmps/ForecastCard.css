@@ -1,0 +1,46 @@
+.forecast-card {
+  width: 150px;
+  height: 150px;
+  color: #ffffff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.forecast-card-day {
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+.forecast-card-temp {
+  font-weight: 700;
+}
+
+.favorite-card {
+  width: 250px;
+  height: 350px;
+  color: #ffffff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  margin: 10px;
+}
+
+.remove-btn {
+  height: 40px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  padding: 0.2rem;
+  background-color: rgb(46 55 106);
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.377);
+  padding: 5px 10px;
+}

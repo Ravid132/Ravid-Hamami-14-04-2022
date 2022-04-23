@@ -1,0 +1,12 @@
+.weather-app {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #222931; */
+  color: #ffffff;
+  margin: 0 auto;
+}
